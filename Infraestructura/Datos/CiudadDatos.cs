@@ -26,7 +26,7 @@ namespace Infraestructura.Datos
             comando.Parameters.AddWithValue("ciudad", ciudad.ciudad);
             comando.Parameters.AddWithValue("departamento", ciudad.departamento);
             comando.Parameters.AddWithValue("postal_code", ciudad.postal_code);
-            comando.ExecuteNonQuery();
+
         }
 
         public CiudadModel obtenerCiudadPorId(int id)
